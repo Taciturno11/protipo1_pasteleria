@@ -9,9 +9,9 @@ export default {
       colors: {
         // Colores personalizados para la pastelería
         pastel: {
-          pink: '#C0392B', // Rojo terracota que combina mejor con la paleta
+          pink: '#D2691E', // Rojo terracota que combina mejor con la paleta
           cream: '#FFF8DC',
-          brown: '#D2691E',
+          brown: '#503114',  //#D2691E
           gold: '#FFD700'
         }
       }

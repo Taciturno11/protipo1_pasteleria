@@ -14,7 +14,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.pastel:hover {
-  filter: drop-shadow(0 0 2em #C0392Baa);
+  filter: drop-shadow(0 0 2em #503114);
 }
 
 @keyframes logo-spin {

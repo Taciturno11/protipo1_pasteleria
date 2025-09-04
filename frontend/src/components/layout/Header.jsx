@@ -62,9 +62,9 @@ function Header() {
         <nav className="hidden lg:flex items-center justify-center">
           {/* Enlaces izquierdos */}
           <ul className="flex items-center mr-8">
-            <li className="mr-10"><Link to="/" className="text-pastel-brown hover:text-pastel-pink font-medium text-xl transition-colors duration-200">Inicio</Link></li>
-            <li className="mr-10"><Link to="/productos" className="text-pastel-brown hover:text-pastel-pink font-medium text-xl transition-colors duration-200">Productos</Link></li>
-            <li><Link to="/tarifas" className="text-pastel-brown hover:text-pastel-pink font-medium text-xl transition-colors duration-200">Tarifas</Link></li>
+            <li className="mr-10"><Link to="/" className="text-pastel-brown hover:text-pastel-pink font-medium text-2xl transition-colors duration-200">Inicio</Link></li>
+            <li className="mr-10"><Link to="/productos" className="text-pastel-brown hover:text-pastel-pink font-medium text-2xl transition-colors duration-200">Productos</Link></li>
+            <li><Link to="/tarifas" className="text-pastel-brown hover:text-pastel-pink font-medium text-2xl transition-colors duration-200">Tarifas</Link></li>
           </ul>
           
           {/* Logo en el centro - más grande */}
@@ -74,8 +74,8 @@ function Header() {
           
           {/* Enlaces derechos */}
           <ul className="flex items-center ml-8">
-            <li className="mr-10"><Link to="/nosotros" className="text-pastel-brown hover:text-pastel-pink font-medium text-xl transition-colors duration-200">Nosotros</Link></li>
-            <li><Link to="/contacto" className="text-pastel-brown hover:text-pastel-pink font-medium text-xl transition-colors duration-200">Contacto</Link></li>
+            <li className="mr-10"><Link to="/nosotros" className="text-pastel-brown hover:text-pastel-pink font-medium text-2xl transition-colors duration-200">Nosotros</Link></li>
+            <li><Link to="/contacto" className="text-pastel-brown hover:text-pastel-pink font-medium text-2xl transition-colors duration-200">Contacto</Link></li>
           </ul>
         </nav>
       </div>
