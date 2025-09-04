@@ -139,29 +139,6 @@ function Home() {
                       />
                     ))}
                   </div>
-                  
-                  {/* Flechas de navegación */}
-                  <button
-                    onClick={() => setCurrentImageIndex(
-                      currentImageIndex === 0 ? heroImages.length - 1 : currentImageIndex - 1
-                    )}
-                    className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-pastel-brown p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                    </svg>
-                  </button>
-                  
-                  <button
-                    onClick={() => setCurrentImageIndex(
-                      currentImageIndex === heroImages.length - 1 ? 0 : currentImageIndex + 1
-                    )}
-                    className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-pastel-brown p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </button>
                 </div>
                 
                 {/* Texto descriptivo de la imagen actual */}
