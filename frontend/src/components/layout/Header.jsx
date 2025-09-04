@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-white shadow-md py-4 w-full relative">
+    <header className="bg-gradient-to-b from-white to-pastel-cream/30 shadow-md py-4 w-full relative">
       {/* Carrito en esquina superior derecha - visible en todas las pantallas */}
       <div className="absolute top-4 right-6 md:right-12 lg:right-20 z-20">
         <Link to="/carrito" className="text-white bg-pastel-pink px-4 py-2 rounded-full hover:bg-pastel-brown font-medium transition-all duration-200 shadow-md hover:shadow-lg flex items-center">
