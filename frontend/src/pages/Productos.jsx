@@ -60,7 +60,7 @@ function Productos() {
   ];
 
   return (
-    <div className="py-16 sm:py-20 md:py-24 lg:py-28 w-full">
+    <div className="py-14 sm:py-18 md:py-22 lg:py-26 w-full">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6">
         {/* Encabezado */}
         <div className="text-center mb-12 md:mb-16">
