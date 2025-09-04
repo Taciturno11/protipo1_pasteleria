@@ -1,9 +1,9 @@
-import postre1 from '../assets/postre1.jpg';
-import postre2 from '../assets/postre2.jpg';
-import postre3 from '../assets/postre3.jpg';
-import postre4 from '../assets/postre 4.webp';
-import postre5 from '../assets/postre5.jpg';
-import postre6 from '../assets/postre6.jpg';
+import tiramisu from '../assets/postre1.jpg';
+import tortaChocolate from '../assets/postre2.jpg';
+import gelatina from '../assets/postre3.jpg';
+import chifon from '../assets/postre 4.webp';
+import suspiroLimeña from '../assets/postre5.jpg';
+import picarones from '../assets/postre6.jpg';
 import { useState, useEffect } from 'react';
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     
     // Imágenes para el carrusel del hero
-    const heroImages = [postre1, postre2, postre3, postre4, postre5, postre6];
+    const heroImages = [tiramisu, tortaChocolate, gelatina, chifon, suspiroLimeña, picarones];
     
     // Efecto para cambiar automáticamente las imágenes
     useEffect(() => {
@@ -31,42 +31,42 @@ function Home() {
         name: 'Tiramisú', 
         description: 'Postre italiano clásico con café y mascarpone',
         price: 450, 
-        image: postre1 
+        image: tiramisu 
       },
       { 
         id: 2, 
         name: 'Torta de Chocolate', 
         description: 'Deliciosa torta de chocolate con crema',
         price: 380, 
-        image: postre2 
+        image: tortaChocolate 
       },
       { 
         id: 3, 
         name: 'Gelatina', 
         description: 'Refrescante gelatina de frutas naturales',
         price: 120, 
-        image: postre3 
+        image: gelatina 
       },
       { 
         id: 4, 
         name: 'Chifón', 
         description: 'Suave y esponjoso pastel de chifón',
         price: 320, 
-        image: postre4 
+        image: chifon 
       },
       { 
         id: 5, 
         name: 'Suspiro a la Limeña', 
         description: 'Tradicional postre peruano con manjar blanco',
         price: 280, 
-        image: postre5 
+        image: suspiroLimeña 
       },
       { 
         id: 6, 
         name: 'Picarones', 
         description: 'Dulces fritos peruanos con miel de chancaca',
         price: 150, 
-        image: postre6 
+        image: picarones 
       }
     ];
   
@@ -117,7 +117,7 @@ function Home() {
                         key={index}
                         src={image} 
                         alt={`Postre ${index + 1}`}
-                        className="w-full h-full object-cover flex-shrink-0"
+                        className="w-full h-full object-contain bg-gray-50 flex-shrink-0"
                       />
                     ))}
                   </div>
@@ -178,7 +178,7 @@ function Home() {
                     <img 
                       src={product.image} 
                       alt={product.name} 
-                      className="w-full h-64 sm:h-72 object-cover transition-transform duration-500 group-hover:scale-110" 
+                      className="w-full h-64 sm:h-72 object-contain bg-gray-50 transition-transform duration-500 group-hover:scale-110" 
                     />
                     
                     {/* Overlay con gradiente */}

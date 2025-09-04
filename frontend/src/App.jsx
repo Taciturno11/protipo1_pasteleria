@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import Chatbot from './components/Chatbot';
 import Home from './pages/Home';
 import Tarifas from './pages/Tarifas';
 import Productos from './pages/Productos';
@@ -25,6 +26,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   );
